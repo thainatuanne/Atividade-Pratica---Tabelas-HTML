@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+.table-1 {
+    width: auto;
+    margin: 20px auto;
+    border: 3px solid #dadada;
+    border-collapse: collapse;
+}
+
+.table-1 thead th {
+    background-color: #a3e4d7;
+    border: 2px solid #dadada;
+    padding: 10px;
+    height: 90px;
+}
+
+.table-1 td, .table-1 tfoot td {
+    border: 2px solid #dadada;
+    height: 100px;
+    width: 100px;
+}
+
+.table-1 tbody tr {
+    background-color: #f9f9f9; 
+    border: 2px solid #dadada;
+}
+
+.table-1 tbody tr:hover {
+    background-color: #b3b6b7;
+}
+
+.table-1 tfoot tr {
+    background-color: #a3e4d7;
+    border: 2px solid #dadada;
+}
+
+.table-1 tfoot tr:hover {
+    background-color: #48c9b0;
+}
+
+.table-2 {
+    width: auto;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.table-2 td {
+    border: 2px solid #dadada;
+    height: 200px;
+    width: 200px;
+}
+
+.table-2 th {
+    border: 2px solid #dadada;
+    height: 100px;
+    width: 100px;
+}
+
+.table-2 tbody tr {
+    background-color: #C2D8B9; 
+    border: 2px solid #dadada;
+}
+
+#rowspan {
+    background-color: #F2BAC9;
+}
+
+#rowspan:hover {
+    background-color: #dadada;
+}
+
+#color-1 {
+    background-color: #f0f3f4;
+}
+
+#color-1:hover {
+    background-color: #E4F0D0;
+}
+
+.table-3 {
+    width: 40%;
+    margin: 40px auto;
+    border: 2px solid #aeb6bf;
+    border-collapse: collapse;
+}
+
+.table-3 td, .table-3 th {
+    border: 2px dotted #abb2b9;
+    height: 100px;
+    width: 100px;
+}
+
+.table-3 th {
+    background-color: #abb2b9;
+}
+
+.table-3 td {
+    background-color: #f2f3f4;
+}
+
+.table-3 td:hover {
+    background-color: #d7dbdd;
+}
+
+#th-1 {
+    background-color: #d35400;
+}
+
+#td-1 {
+    background-color: #45b39d;
+}
+
+#td-2 {
+    background-color: #6c3483;
+}
+
+#td-3 {
+    background-color: #b03a2e;
+}

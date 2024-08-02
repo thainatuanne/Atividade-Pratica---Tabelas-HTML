@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela 2</title>
+</head>
+<style>
+    table{
+        width: 650px;
+        height: 700px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    tr {
+        border: 1px solid #dadada;
+    }
+
+    th {
+        background-color: cadetblue;
+        color: white;
+    }
+    
+    td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+    tfoot {
+        background-color: #dadada;
+    }
+
+    thead{
+        height: 80px;
+    }
+    
+    tfoot {
+        height: 50px;
+    }
+</style>
+<body>
+    <main>
+        <section>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="3">TOPO</th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td colspan="1" rowspan="1">MENÚ</td> 
+                        <td colspan="2">CONTEÚDO</td>
+                    </tr>
+                </tbody>
+    
+                <tfoot>
+                    <tr>
+                        <td colspan="3">RODAPÉ</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
